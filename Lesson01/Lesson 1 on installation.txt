@@ -1,0 +1,52 @@
+github.com/conda-forge/miniforge -> Mambaforge (https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh)
+wget URL for Ubuntu
+-- Clean everything or better install another WSL Ubuntu version...
+exp of cleanning: 
+$ which jupyter
+-> ... smth
+$ rm -rf smth 
+-- reading directory:
+$ ls -l -h
+
+-- reading the ftext file:
+$ less Mambaforge-Linux-x86_64.sh
+
+-- installing
+$ bash Mambaforge-Linux-x86_64.sh
+... etc..
+
+chmod u+x setup-conda.sh
+
+$ mamba install pytorch torchvision torchaudio cpuonly -c pytorch
+$ mamba install jupyterlab
+
+$ jupyter lab --no-browser
+-- some tricks:
+$ ^R reverse search in history :-) 
+! 
+!! , eg echo !! :-)
+$ alias lab="jupyter lab --no-browser"
+
+^a, ^e beg and end line in bash
+:wq in vim to save and quit
+$ explorer.exe . opens folder and
+$ notepad.com opens notepad :-)
+
+-- in jupyter lab
+$ mamba install ipywidgets (unnecessary)
+Raise: (https://rise.readthedocs.io/en/stable/installation.html)
+$ mamba install -c conda-forge rise (very optional)
+
+-- switching users:
+$ sudo -u peterk -i (interactive)
+
+
+
+
+Idea, regarding the tabulair models never being pretrained due to unusual (among images variety), I think that positional properties among 
+	tabular data are very strong, so array representation is absolutely fitting. As about variety, what about in role/position of labels use
+	mathematical formulas binding data? together with statistical fuzziness? 
+or use collaborative learners for tabular.. what is interested Jerry said that fine_tune worked fine in spite of pretrained models...
+
+
+Spivak Calculus
