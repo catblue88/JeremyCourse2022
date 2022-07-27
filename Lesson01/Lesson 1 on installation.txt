@@ -50,3 +50,10 @@ or use collaborative learners for tabular.. what is interested Jerry said that f
 
 
 Spivak Calculus
+
+
+$ pushd ~ // saves my current place in file system, and popd returns me back to the place
+$ cd - // gets me back to the recent place..
+
+==== (https://tmuxcheatsheet.com/)
+$ tmux 
